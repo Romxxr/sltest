@@ -1,9 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": ".output",
-  "env": {
-    "NITRO_PRERENDER": "false"
-  },
+  "outputDirectory": "dist/client",
   "rewrites": [
     {
       "source": "/(.*)",
